@@ -1,4 +1,4 @@
-codeunit 80000 "InstallAlTestSuite_TPTE"
+codeunit 80000 "InstallALTestSuite_TPTE"
 {
     Subtype = Install;
 
