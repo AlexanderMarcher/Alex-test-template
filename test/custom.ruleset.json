@@ -1,0 +1,10 @@
+{
+    "name": "Trimit Ruleset",
+    "rules": [
+        {
+            "id": "AA0072",
+            "action": "Hidden",
+            "justification": "Variable name suffix not required"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.al": "explicit",
+        "CRS.RenameCurrentFile":"always"
+    },
+    "alOutline.codeActionsOnSave": [
+        "SortProperties",
+        "SortReportColumns",
+        "SortVariables",
+    ],
+    "CRS.FileNamePattern": "<ObjectNameShort>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.al",
+    "CRS.ObjectNameSuffix": "_TPTE",
+    "CRS.RemoveSuffixFromFilename": true
+}
