@@ -4,7 +4,17 @@
         {
             "id": "AA0072",
             "action": "Hidden",
-            "justification": "Variable name suffix not required"
+            "justification": "Variable name suffix is not required"
+        },
+        {
+            "id": "AA0215",
+            "action": "Hidden",
+            "justification": "File name suffix is not required"
+        },
+        {
+            "id": "PTE0012",
+            "action": "Hidden",
+            "justification": "InternalsVisibleTo is required for the test app"
         }
     ]
 }
