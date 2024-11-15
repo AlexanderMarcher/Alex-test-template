@@ -1,4 +1,4 @@
-pageextension 50000 "CustomerCard_PTE" extends "Customer Card"
+pageextension 50000 "Customer Card_PTE" extends "Customer Card"
 {
     // This code is created as an example and must be removed before deploying. #TODO
     layout

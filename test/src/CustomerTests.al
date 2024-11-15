@@ -1,4 +1,4 @@
-codeunit 80001 "CustomerTests_TPTE"
+codeunit 80501 "Customer Tests_TPTE"
 {
     Subtype = Test;
     // This test and the code added to the app is created as an example and must be removed before deploying. #TODO
@@ -25,6 +25,7 @@ codeunit 80001 "CustomerTests_TPTE"
     procedure "When Include in CO2 Statistics is set to true the user should be prompted to confirm"()
     var
         Customer: Record Customer;
+        CustomerQstLbl: Label 'Are you sure that the Customer: %1 should be included in the CO2 consumption statistics?', Locked = true;
         ExpectedMessage: Variant;
     begin
         Initialize();
@@ -36,7 +37,7 @@ codeunit 80001 "CustomerTests_TPTE"
 
         // [THEN] Then the user should be prompted to confirm
         LibraryVariableStorage.Dequeue(ExpectedMessage);
-        LibraryAssert.ExpectedMessage(StrSubstNo('Are you sure that the Customer: %1 should be included in the CO2 consumption statistics?', Customer.Name), Format(ExpectedMessage));
+        LibraryAssert.ExpectedMessage(StrSubstNo(CustomerQstLbl, Customer.Name), Format(ExpectedMessage));
     end;
 
     local procedure Initialize()
