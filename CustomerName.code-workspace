@@ -8,5 +8,12 @@
             "name": "Test",
             "path": "test"
         }
-    ]
+    ],
+    "settings": {
+        "ev-tools.useIsolationType": "hyperv",
+        "ev-tools.containerCountry": "w1",
+        "ev-tools.includeTestToolkitOnNewContainer": true,
+        "ev-tools.testLibrariesOnlyOnNewContainer": true,
+        "ev-tools.typeOnNewContainer": "Sandbox"
+    }
 }
